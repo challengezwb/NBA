@@ -1,0 +1,186 @@
+<%--
+&lt;%&ndash;
+  Created by IntelliJ IDEA.
+  User: challengezwb
+  Date: 4/19/17
+  Time: 12:35 AM
+  To change this template use File | Settings | File Templates.
+&ndash;%&gt;
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sign Up</title>
+</head>
+<body background="bj2.jpg">
+<div align="center" >
+    <p style="font-size: 50px">Sign Up</p>
+</div>
+<div align="center" style="line-height :50px">
+    <form name="form1" method="post" action="SignUpServlet">
+        <table width="615" border="0">
+            <tr>
+                <td width="123">EmailAddress：</td>
+                <td width="483"><label>
+                    <input name="EmailAddress" type="text" style="font-size: 30px;">
+                </label></td>
+            </tr>
+            <tr>
+                <td>UserName：</td>
+                <td><input name="UserName" type="text" style="font-size: 30px;" ></td>
+            </tr>
+            <tr>
+                <td>PassWord：</td>
+                <td><input name="PassWord" type="password" style="font-size: 30px;" ></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><label>
+                    <input type="submit" name="Submit" value="Sign Up">
+                </label></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
+--%>
+
+
+
+<%--
+&lt;%&ndash;
+  Created by IntelliJ IDEA.
+  User: challengezwb
+  Date: 4/6/17
+  Time: 3:24 PM
+  To change this template use File | Settings | File Templates.
+&ndash;%&gt;
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>photo store</title>
+</head>
+<body background="IMG_0704.JPG">
+<div align="center" >
+    <p style="font-size: 50px">NBA</p>
+</div>
+<div align="center" style="line-height :50px">
+    <form name="form1" method="post" action="LoginServlet">
+        <table width="615" border="0">
+            <tr>
+                <td width="123">UserName：</td>
+                <td width="483"><label>
+                    <input name="EmailAddress" type="text" size="50">
+                </label></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input name="PassWord" type="password" size="50"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><label>
+                    <input type="submit" name="Submit" value="enter">
+                </label></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+
+<!--Import jQuery before materialize.js-->
+
+</body>
+</html>
+--%>
+<%--
+  Created by IntelliJ IDEA.
+  User: challengezwb
+  Date: 4/6/17
+  Time: 3:24 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>photo store</title>
+</head>
+<body background="bj2.jpg">
+<div align="center" >
+    <p style="font-size: 50px">NBA</p>
+</div>
+<div align="center" style="line-height :50px">
+    <form name="form1" method="post" action="SignUpServLet">
+        <table width="615" border="0">
+            <tr>
+                <td width="123">Email：</td>
+                <td width="483">
+                    <label>
+                        <input name="EmailAddress" style="font-size: 30px;" type="text">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Password：</td>
+                <td><input name="PassWord" style="font-size: 30px;" type="password"></td>
+            </tr>
+            <tr>
+                <td width="123">UserName：</td>
+                <td width="483">
+                    <label>
+                        <input name="name" style="font-size: 30px;" type="text">
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td style="float:left; display:block;"><label>
+                    <input type="submit" name="Submit" style="font-size: 30px;" value="Sign in">
+                </label></td>
+
+
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</div>
+</body>
+</html>
+
